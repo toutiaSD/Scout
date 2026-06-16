@@ -1,0 +1,15 @@
+scout/
+├── .github/
+│   └── workflows/
+│       └── fetch-jobs.yml
+├── data/
+│   └── jobs.json          ← created automatically on first run
+├── dashboard/
+│   └── index.html
+├── fetch_jobs.py
+└── README.md
+git init
+git remote add origin https://github.com/YOUR_USERNAME/scout.git
+git add .
+git commit -m "init"
+git push -u origin main
